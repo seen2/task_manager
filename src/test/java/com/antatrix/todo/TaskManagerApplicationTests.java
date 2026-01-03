@@ -1,10 +1,10 @@
-package com.example.task_manager.tasks_manager;
+package com.antatrix.todo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TasksManagerApplicationTests {
+class TodoApplicationTests {
 
 	@Test
 	void contextLoads() {

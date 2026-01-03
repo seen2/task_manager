@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TaskManagerApplication",
+      "request": "launch",
+      "mainClass": "com.antatrix.task_manager.TaskManagerApplication",
+      "projectName": "task-manager"
+    },
+    {
+      "type": "java",
+      "name": "TodoApplication",
+      "request": "launch",
+      "mainClass": "com.antatrix.todo.TodoApplication",
+      "projectName": "tasks_manager"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TasksManagerApplication<tasks_manager>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.task_manager.tasks_manager.TasksManagerApplication",
+      "projectName": "tasks_manager",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TodoApplication<task-manager>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.antatrix.task_manager.TodoApplication",
+      "projectName": "task-manager",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
